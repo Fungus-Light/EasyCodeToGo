@@ -313,6 +313,12 @@ export class AbstractVariableResolverService implements IConfigurationResolverSe
 						}
 						return match;
 
+					case 'execDir':
+						if (ep) {
+							return paths.dirname(ep);
+						}
+						return match;
+
 					case 'pathSeparator':
 						return paths.sep;
 
