@@ -5,23 +5,37 @@
 	"version": "1.0.0",
 	"publisher": "vscode",
 	"license": "MIT",
-	"engines": { "vscode": "*" },
+	"engines": {
+		"vscode": "*"
+	},
 	"scripts": {
 		"update-grammar": "node ../../build/npm/update-grammar.js atom/language-less grammars/less.cson ./syntaxes/less.tmLanguage.json"
 	},
 	"contributes": {
-		"languages": [{
-			"id": "less",
-			"aliases": ["Less", "less"],
-			"extensions": [".less"],
-			"mimetypes": ["text/x-less", "text/less"],
-			"configuration": "./language-configuration.json"
-		}],
-		"grammars": [{
-			"language": "less",
-			"scopeName": "source.css.less",
-			"path": "./syntaxes/less.tmLanguage.json"
-		}],
+		"languages": [
+			{
+				"id": "less",
+				"aliases": [
+					"Less",
+					"less"
+				],
+				"extensions": [
+					".less"
+				],
+				"mimetypes": [
+					"text/x-less",
+					"text/less"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "less",
+				"scopeName": "source.css.less",
+				"path": "./syntaxes/less.tmLanguage.json"
+			}
+		],
 		"problemMatchers": [
 			{
 				"name": "lessc",
@@ -38,5 +52,10 @@
 				}
 			}
 		]
+	},
+	"__metadata": {
+		"id": "bca2eb65-17f6-4b65-96f5-a1bde17aecf8",
+		"publisherDisplayName": null,
+		"publisherId": "9156ae8e-c2fd-4dab-9232-54bbce5b1621"
 	}
 }

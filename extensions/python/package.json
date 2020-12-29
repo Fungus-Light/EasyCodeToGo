@@ -5,32 +5,66 @@
 	"version": "1.0.0",
 	"publisher": "vscode",
 	"license": "MIT",
-	"engines": { "vscode": "*" },
-	"activationEvents": ["onLanguage:python"],
+	"engines": {
+		"vscode": "*"
+	},
+	"activationEvents": [
+		"onLanguage:python"
+	],
 	"main": "./out/pythonMain",
 	"browser": "./dist/browser/pythonMain",
-	"extensionKind": [ "ui", "workspace", "web" ],
+	"extensionKind": [
+		"ui",
+		"workspace",
+		"web"
+	],
 	"contributes": {
-		"languages": [{
-			"id": "python",
-			"extensions": [ ".py", ".rpy", ".pyw", ".cpy", ".gyp", ".gypi", ".pyi", ".ipy"],
-			"aliases": [ "Python", "py" ],
-			"filenames": [ "Snakefile", "SConstruct", "SConscript" ],
-			"firstLine": "^#!\\s*/?.*\\bpython[0-9.-]*\\b",
-			"configuration": "./language-configuration.json"
-		}],
-		"grammars": [{
-			"language": "python",
-			"scopeName": "source.python",
-			"path": "./syntaxes/MagicPython.tmLanguage.json"
-		},{
-			"scopeName": "source.regexp.python",
-			"path": "./syntaxes/MagicRegExp.tmLanguage.json"
-		}]
+		"languages": [
+			{
+				"id": "python",
+				"extensions": [
+					".py",
+					".rpy",
+					".pyw",
+					".cpy",
+					".gyp",
+					".gypi",
+					".pyi",
+					".ipy"
+				],
+				"aliases": [
+					"Python",
+					"py"
+				],
+				"filenames": [
+					"Snakefile",
+					"SConstruct",
+					"SConscript"
+				],
+				"firstLine": "^#!\\s*/?.*\\bpython[0-9.-]*\\b",
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "python",
+				"scopeName": "source.python",
+				"path": "./syntaxes/MagicPython.tmLanguage.json"
+			},
+			{
+				"scopeName": "source.regexp.python",
+				"path": "./syntaxes/MagicRegExp.tmLanguage.json"
+			}
+		]
 	},
 	"scripts": {
 		"compile": "gulp compile-extension:python",
 		"watch": "gulp watch-extension:python",
 		"update-grammar": "node ../../build/npm/update-grammar.js MagicStack/MagicPython grammars/MagicPython.tmLanguage ./syntaxes/MagicPython.tmLanguage.json grammars/MagicRegExp.tmLanguage ./syntaxes/MagicRegExp.tmLanguage.json"
+	},
+	"__metadata": {
+		"id": "68c266ab-3396-4416-a150-1bc1b1473d3e",
+		"publisherDisplayName": null,
+		"publisherId": "9156ae8e-c2fd-4dab-9232-54bbce5b1621"
 	}
 }

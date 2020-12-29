@@ -343,5 +343,10 @@
 		"vscode": "^1.1.10",
 		"webpack": "^4.41.2",
 		"webpack-cli": "^3.3.0"
+	},
+	"__metadata": {
+		"id": "4eae1474-d740-441a-9958-c9ecfe3a4e1a",
+		"publisherDisplayName": null,
+		"publisherId": "9156ae8e-c2fd-4dab-9232-54bbce5b1621"
 	}
 }

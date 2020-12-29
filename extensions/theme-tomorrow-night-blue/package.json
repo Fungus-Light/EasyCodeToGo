@@ -5,7 +5,9 @@
 	"version": "1.0.0",
 	"publisher": "vscode",
 	"license": "MIT",
-	"engines": { "vscode": "*" },
+	"engines": {
+		"vscode": "*"
+	},
 	"contributes": {
 		"themes": [
 			{
@@ -15,5 +17,10 @@
 				"path": "./themes/tomorrow-night-blue-color-theme.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "372e5963-b54e-4018-ba60-f5239f2f0ef9",
+		"publisherDisplayName": null,
+		"publisherId": "9156ae8e-c2fd-4dab-9232-54bbce5b1621"
 	}
 }

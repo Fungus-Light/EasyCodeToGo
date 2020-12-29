@@ -5,7 +5,9 @@
 	"version": "1.0.0",
 	"publisher": "vscode",
 	"license": "MIT",
-	"engines": { "vscode": "*" },
+	"engines": {
+		"vscode": "*"
+	},
 	"contributes": {
 		"themes": [
 			{
@@ -15,5 +17,10 @@
 				"path": "./themes/abyss-color-theme.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "14a9ffe0-da32-40ec-8a7d-1011c2a85370",
+		"publisherDisplayName": null,
+		"publisherId": "9156ae8e-c2fd-4dab-9232-54bbce5b1621"
 	}
 }

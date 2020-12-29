@@ -31,5 +31,10 @@
 				"path": "./syntaxes/log.tmLanguage.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "61297b6d-68a5-4a14-b370-87ae36c73e0e",
+		"publisherDisplayName": null,
+		"publisherId": "9156ae8e-c2fd-4dab-9232-54bbce5b1621"
 	}
 }

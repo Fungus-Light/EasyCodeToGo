@@ -2,11 +2,15 @@
 	"name": "theme-defaults",
 	"displayName": "%displayName%",
 	"description": "%description%",
-	"categories": [ "Themes" ],
+	"categories": [
+		"Themes"
+	],
 	"version": "1.0.0",
 	"publisher": "vscode",
 	"license": "MIT",
-	"engines": { "vscode": "*" },
+	"engines": {
+		"vscode": "*"
+	},
 	"contributes": {
 		"themes": [
 			{
@@ -47,5 +51,10 @@
 				"path": "./fileicons/vs_minimal-icon-theme.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "9565bbe4-129e-4986-971a-51e3f7a9b57f",
+		"publisherDisplayName": null,
+		"publisherId": "9156ae8e-c2fd-4dab-9232-54bbce5b1621"
 	}
 }

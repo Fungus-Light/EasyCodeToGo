@@ -36,5 +36,10 @@
 		"trailingComma": "all",
 		"singleQuote": true,
 		"arrowParens": "avoid"
+	},
+	"__metadata": {
+		"id": "644dd983-e5c6-4767-9dd5-2b109138dfd0",
+		"publisherDisplayName": null,
+		"publisherId": "9156ae8e-c2fd-4dab-9232-54bbce5b1621"
 	}
 }
